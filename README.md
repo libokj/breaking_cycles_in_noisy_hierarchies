@@ -4,11 +4,13 @@
 
 >  **Keywords**:  _Directed Acyclic Graph_, _Graph Hierarchy_, _TrueSkill_, _Social Agony_, _Cycle Edges_
 
+* **11, June, 2022** - Python 3.9+ and networkx 2.8.3 support by [libokj](https://github.com/libokj)
+* **14, July, 2017** - Last update by [zhen5](https://github.com/zhenv5) (the original author)
 
-* Last update: 14, July, 2017 
-* Corresponding Paper: [Breaking Cycles in Noisy Hierarchies](https://github.com/zhenv5/breaking_cycles_in_noisy_hierarchies/tree/master/paper)
-* [The 9th International ACM Web Science Conference 2017](http://dl.acm.org/citation.cfm?id=3091495), WebSci'17
-* If you use this code, please consider to cite this paper: [BibTex Download](http://web.cse.ohio-state.edu/~sun.1306/Published_Works/Bib_WebSci_17_Breaking_Cycles_in_Noisy_Hierarchies.bib)
+Corresponding Paper: [Breaking Cycles in Noisy Hierarchies](http://dl.acm.org/citation.cfm?id=3091495), WebSci'17
+* [PDF and slides](https://github.com/zhenv5/breaking_cycles_in_noisy_hierarchies/tree/master/paper)
+
+If you use this code, please consider to cite this paper: [BibTex Download](http://web.cse.ohio-state.edu/~sun.1306/Published_Works/Bib_WebSci_17_Breaking_Cycles_in_Noisy_Hierarchies.bib)
 * [Author Homepage](http://web.cse.ohio-state.edu/~sun.1306)
 
 
@@ -16,12 +18,8 @@
 
 #### 0. Requirements
 
-* Python 2.7
-* Lib: networkx 1.1/2.x
-
-If you have ran errors like ```DiGraph has no attributes of nodes_iter() or edges_iter()```, please changes ```nodes_iter()``` to ```list(nodes())``` and ```edges_iter()``` to ```list(edges())```.
-
-Please go to [networkx](https://networkx.github.io/) to see differences between different version of networkx.
+* Python 3.9+
+* Lib(s): [networkx](https://networkx.org/) 2.7+
 
 #### 1. Generate Random Graphs (DAGs)
 

@@ -1,0 +1,2 @@
+networkx==2.8.3
+trueskill==0.4.5
